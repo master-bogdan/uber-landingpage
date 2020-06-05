@@ -128,6 +128,7 @@ nav
 		+btn_hover
 
 .label
+	position: relative
 	margin: 0 auto
 	height: 24px
 	width: 112px
@@ -138,22 +139,37 @@ nav
 	font-weight: 300
 	text-transform: uppercase
 	text-align: center
+	z-index: 2
+	&_white 
+		background-color: #fff
+		color: #000
+	&_min 
+		width: 76px
 
 .title
+	position: relative
 	margin-bottom: 0
 	margin-top: 38px
 	color: #222222
 	font-size: 38px
+	line-height: 38px
 	font-weight: 700
 	text-transform: uppercase
 	text-align: center
+	z-index: 2
+	&_white 
+		color: #fff
 
 .subtitle
+	position: relative
 	margin-top: 19px
-	font-weight: 400
-	font-size: 17px
 	color: #222222
+	font-size: 17px
+	font-weight: 400
 	text-align: center
+	z-index: 2
+	&_white 
+		color: #fff
 
 .reasons 
 	padding: 71px 0 65px 0
@@ -406,6 +422,5 @@ footer
 			margin-top: 19px
 			text-transform: uppercase
 			text-align: center
-
 	&_mobile
 				
