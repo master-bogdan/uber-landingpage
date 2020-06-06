@@ -1,0 +1,28 @@
+{
+  "name": "uber-landingpage",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/master-bogdan/uber-landingpage.git"
+  },
+  "author": "masterbogdan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/master-bogdan/uber-landingpage/issues"
+  },
+  "homepage": "https://github.com/master-bogdan/uber-landingpage#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.7",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-cli": "^2.3.0",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^4.1.0"
+  }
+}
