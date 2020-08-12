@@ -1,7 +1,12 @@
-Uber - landingpage
+:oncoming_taxi: Uber - landingpage
 =====================
+Training layout coding from Udemy course
+
+### Technologies used
 - HTML5
 - CSS3
-- JS
 - Full Responsive
-- In this project I was use sass, Gulp
+- SASS
+- Gulp
+
+[[DEMO](https://master-bogdan.github.io/uber-landingpage/)]
